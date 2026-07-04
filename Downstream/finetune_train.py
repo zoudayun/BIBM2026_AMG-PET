@@ -41,7 +41,7 @@ def get_args():
         ("eval_every", 1, int),
         ("dropout", 0.2, float),
         ("num_classes", 3, int),
-        ("gamma", 0.5, float),
+        ("gamma", 0, float),
         ("alpha", "0.83,1.09,1.14", str),
         ("input_size_x", 128, int),
         ("input_size_y", 128, int),
@@ -174,7 +174,7 @@ def main():
 
     alpha = [float(x.strip()) for x in args.alpha.split(",")]
     assert len(alpha) == args.num_classes, 
-    criterion = FocalLoss(gamma=args.gamma,alpha=alpha,reduction="mean",task_type="multi-class",num_classes=args.num_classes,)
+    criterion = FocalLoss(gamma=args.gamma,alpha=alpha,reduction="mean",task_type="multi-class",num_classes=args.num_classes,) #focal_loss:gamma=0 → CE loss
     optimizer = torch.optim.AdamW(model.parameters(),lr=args.learning_rate,weight_decay=0.01,)
     scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer,gamma=0.99,)
 
