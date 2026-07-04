@@ -12,7 +12,7 @@ from torch.cuda.amp import GradScaler, autocast
 import dist
 from sampler import DistInfiniteBatchSampler, worker_init_fn
 from utils import arg_util, misc, lamb
-from utils.pet_4_mclim import build_dataset_to_pretrain
+from utils.pet import build_dataset_to_pretrain
 from utils.lr_control import lr_wd_annealing, get_param_groups
 from pet_foundation_model import PETFoundationModel
 
@@ -50,10 +50,10 @@ def main_pt():
         args.weight_suvr = 1.0
 
     if not hasattr(args, "aal_standard_names_json"):
-        args.aal_standard_names_json = "/data/junyan/lab/PET_SSL/aal_standard_names.json"
+        args.aal_standard_names_json = "aal_standard_names.json"
 
     if not hasattr(args, "text_pack_path"):
-        args.text_pack_path = "/data/junyan/LiangJ/PET_Foundation_Model/aal_text_outputs/aal_text_pack.pt"
+        args.text_pack_path = "aal_text_pack.pt"
 
     # -------------------------------------------------
     # build data
@@ -65,26 +65,8 @@ def main_pt():
         mim_ratio=args.mim_ratio,
         patch_size=args.patch_size,
         aal_standard_names_json=args.aal_standard_names_json,
-        # cache_dir="/data/junyan/LiangJ/PET_Foundation_Model/monai_cache", 
-        # cache_dir="memory",
-        cache_dir=None,
+        cache_dir="", 
     )
-
-    # data_loader_train = DataLoader(
-    #     dataset=dataset_train,
-    #     num_workers=args.dataloader_workers,
-    #     pin_memory=True,
-    #     batch_sampler=DistInfiniteBatchSampler(
-    #         dataset_len=len(dataset_train),
-    #         glb_batch_size=args.glb_batch_size,
-    #         shuffle=True,
-    #         filling=True,
-    #         rank=dist.get_rank(),
-    #         world_size=dist.get_world_size(),
-    #     ),
-    #     worker_init_fn=worker_init_fn,
-    #     persistent_workers=True,
-    # )
 
     data_loader_train = DataLoader(
         dataset=dataset_train,
@@ -305,9 +287,6 @@ def pre_train_one_ep(
         aal_cover_ratio_t = torch.cat([t["aal_cover_ratio"] for t in flat_inp], dim=0).to(args.device, non_blocking=True)
         aal_state_t = torch.cat([t["aal_state"] for t in flat_inp], dim=0).to(args.device, non_blocking=True)
         aal_suvr_t = torch.cat([t["aal_suvr"] for t in flat_inp], dim=0).to(args.device, non_blocking=True)
-
-
-        # 如果 aal_state 进来是 float tensor，这里强制转 long
         aal_state_t = aal_state_t.long()
 
         # -------------------------------------------------
