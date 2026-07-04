@@ -13,7 +13,7 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-from dataloader.adni_T1_1mm import build_dataset
+from dataloader.adni_av45_1mm import build_dataset
 from models.nnunet_mae_double import AV45BinaryClassifier
 
 
@@ -127,8 +127,8 @@ def compute_metrics(y_true, y_prob, num_classes=3):
 def main():
     warnings.filterwarnings("ignore")
 
-    data_path = "/data/zhaomy/downstream/multi_classification/data_list"
-    save_dir = "/data/zhaomy/downstream/multi_classification/ablation_results/recon_suvr/adni_T1_1mm_finetune/fold_4"
+    data_path = ""
+    save_dir = ""
 
     model_path = os.path.join(save_dir, "best_model.pth")
     ckpt_path = os.path.join(save_dir, "best_checkpoint.pth")
@@ -148,7 +148,7 @@ def main():
 
     test_loader = DataLoader(
         test_ds,
-        batch_size=1,
+        batch_size=8,
         shuffle=False,
         num_workers=4,
         pin_memory=torch.cuda.is_available(),
