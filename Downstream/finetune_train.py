@@ -28,13 +28,13 @@ def get_args():
 
     for k, v, t in [
         ("dataset_name", "adni_av45_1mm", str),
-        ("data_path", "/data/zhaomy/downstream/multi_classification/data_list", str),
-        ("dataloader_root", "/data/zhaomy/downstream/multi_classification", str),
-        ("log_dir", "/data/zhaomy/downstream/multi_classification/results_latest/Finetune_1mm/adni_av45_1mm_finetune", str),
+        ("data_path", "", str),
+        ("dataloader_root", "", str),
+        ("log_dir", "", str),
         ("pretrained_ckpt", "", str),
         ("strict_pretrained", True, str2bool),
         ("max_epochs", 200, int),
-        ("learning_rate", 5e-6, float),
+        ("learning_rate", 5e-5, float),
         ("train_batch_size", 8, int),
         ("val_batch_size", 8, int),
         ("num_workers", 4, int),
@@ -173,7 +173,7 @@ def main():
     print(f"loaded pretrained encoder from: {args.pretrained_ckpt}")
 
     alpha = [float(x.strip()) for x in args.alpha.split(",")]
-    assert len(alpha) == args.num_classes, "alpha 数量必须等于 num_classes，例如三分类: 0.83,1.09,1.14"
+    assert len(alpha) == args.num_classes, 
     criterion = FocalLoss(gamma=args.gamma,alpha=alpha,reduction="mean",task_type="multi-class",num_classes=args.num_classes,)
     optimizer = torch.optim.AdamW(model.parameters(),lr=args.learning_rate,weight_decay=0.01,)
     scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer,gamma=0.99,)
