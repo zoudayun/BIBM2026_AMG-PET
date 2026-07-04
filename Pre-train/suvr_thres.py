@@ -3,14 +3,13 @@ import json
 import numpy as np
 from collections import defaultdict
 
-ROOT = "/data/junyan/PET_MNI_1mm"
+ROOT = ""
 JSON_NAME = "aal_PET_text.json"
 OUT_GROUP_STATS = os.path.join(ROOT, "aal_suvr_group_thresholds.json")
 
-# ---- 可调参数 ----
-MIN_SUBJECTS = 10   # 某脑区至少有多少样本
-MIN_IQR = 0.05      # IQR太小则不适合硬分三类
-MIN_STD = 0.05      # std太小则不适合硬分三类
+MIN_SUBJECTS = 10   
+MIN_IQR = 0.05      
+MIN_STD = 0.05     
 
 STABLE_LABEL = "stable uptake"
 LOW_LABEL = "low uptake"
@@ -27,8 +26,6 @@ def save_json(obj, path):
     with open(path, "w") as f:
         json.dump(obj, f, indent=4, ensure_ascii=False)
 
-
-# 收集所有subject的ROI-SUVR
 def collect_group_suvr(root):
     roi2values = defaultdict(list)
     subject_json_paths = []
@@ -169,7 +166,6 @@ def update_subject_jsons(subject_json_paths, thresholds):
             except Exception:
                 continue
 
-            # 不动 PET_Signal，只新增这个字段
             roi_info["SUVR_Discrete_State"] = assign_state(suvr, thresholds[roi_name])
             changed = True
 
