@@ -10,7 +10,7 @@ OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 CUDA_VISIBLE_DEVICES=  python launch.py \
   --exp_name "${EXP_NAME}" \
   --exp_dir "${EXP_DIR}" \
   --num_nodes=1 \
-  --ngpu_per_node=6 \
+  --ngpu_per_node= \
   --node_rank=0 \
   --master_address=128.0.1.3 \
   --master_port=5200 \
@@ -21,14 +21,14 @@ OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 CUDA_VISIBLE_DEVICES=  python launch.py \
   --ep=200 \
   --wp_ep=10 \
   --input_size=64 \
-  --dataloader_workers=2 \
+  --dataloader_workers= \
   --base_lr=1e-4 \
   --wd=0.2 \
   --mim_ratio=0.75 \
   --patch_size=8 \
   --weight_recon=1.0\
   --weight_clip=1.0\
-  --weight_matching=0.0\
+  --weight_matching=1.0\
   --weight_suvr=1.0\
   --resume_from=
 
