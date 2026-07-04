@@ -1,0 +1,1184 @@
+{
+    "Precentral_L": {
+        "Location": "Anterior to the central sulcus, in the frontal lobe",
+        "Shape": "Convex cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0469748447303102,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Precentral_R": {
+        "Location": "Anterior to the central sulcus, in the frontal lobe",
+        "Shape": "Convex cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0471981325720374,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Sup_2_L": {
+        "Location": "Superior part of the frontal lobe",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9943001143362724,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Sup_2_R": {
+        "Location": "Superior part of the frontal lobe",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0416459231993005,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Frontal_Mid_2_L": {
+        "Location": "Middle frontal lobe, lateral to superior regions",
+        "Shape": "Rectangular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0310359620787921,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Mid_2_R": {
+        "Location": "Middle frontal lobe, lateral to superior regions",
+        "Shape": "Rectangular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0249807504922006,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Oper_L": {
+        "Location": "Inferior frontal gyrus, opercular part",
+        "Shape": "Irregular cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9654559199168885,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Oper_R": {
+        "Location": "Inferior frontal gyrus, opercular part",
+        "Shape": "Irregular cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0055163382212682,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Tri_L": {
+        "Location": "Inferior frontal gyrus, triangular part",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0134187931945091,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Tri_R": {
+        "Location": "Inferior frontal gyrus, triangular part",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0073579389548775,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Orb_2_L": {
+        "Location": "Inferior frontal gyrus, orbital part",
+        "Shape": "Orbital cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.029535822463434,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Inf_Orb_2_R": {
+        "Location": "Inferior frontal gyrus, orbital part",
+        "Shape": "Orbital cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9289739109518415,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Rolandic_Oper_L": {
+        "Location": "Opercular part of the precentral gyrus",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9588612706996696,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Rolandic_Oper_R": {
+        "Location": "Opercular part of the precentral gyrus",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9685359217741275,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Supp_Motor_Area_L": {
+        "Location": "Medial part of the superior frontal gyrus",
+        "Shape": "Small cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0863896629175804,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Supp_Motor_Area_R": {
+        "Location": "Medial part of the superior frontal gyrus",
+        "Shape": "Small cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0688309357969263,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Olfactory_L": {
+        "Location": "Anterior part of the temporal lobe, near the olfactory bulb",
+        "Shape": "Small circular region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.7696860073167476,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Olfactory_R": {
+        "Location": "Anterior part of the temporal lobe, near the olfactory bulb",
+        "Shape": "Small circular region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.8387129850021506,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Sup_Medial_L": {
+        "Location": "Medial part of the superior frontal lobe",
+        "Shape": "Crescent-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8497088229812684,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Sup_Medial_R": {
+        "Location": "Medial part of the superior frontal lobe",
+        "Shape": "Crescent-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0034192865236033,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Med_Orb_L": {
+        "Location": "Medial part of the inferior frontal gyrus",
+        "Shape": "Orbital cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9729932952384391,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Frontal_Med_Orb_R": {
+        "Location": "Medial part of the inferior frontal gyrus",
+        "Shape": "Orbital cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.980590966338189,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Rectus_L": {
+        "Location": "Medial to the olfactory sulcus, in the orbital part of the frontal lobe",
+        "Shape": "Short curved region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8848488478347367,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Rectus_R": {
+        "Location": "Medial to the olfactory sulcus, in the orbital part of the frontal lobe",
+        "Shape": "Short curved region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9321000213453503,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCmed_L": {
+        "Location": "Medial part of the orbital frontal cortex",
+        "Shape": "Compact cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8853237173927203,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCmed_R": {
+        "Location": "Medial part of the orbital frontal cortex",
+        "Shape": "Compact cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8573495394627807,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCant_L": {
+        "Location": "Anterior part of the orbital frontal cortex",
+        "Shape": "Circular cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8485596563850005,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCant_R": {
+        "Location": "Anterior part of the orbital frontal cortex",
+        "Shape": "Circular cortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8368823471373048,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCpost_L": {
+        "Location": "Posterior part of the orbital frontal cortex",
+        "Shape": "Long cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8321110809453088,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFCpost_R": {
+        "Location": "Posterior part of the orbital frontal cortex",
+        "Shape": "Long cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.6283105445385889,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFClat_L": {
+        "Location": "Lateral part of the orbital frontal cortex",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9606358850807609,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "OFClat_R": {
+        "Location": "Lateral part of the orbital frontal cortex",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8325105807805434,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Insula_L": {
+        "Location": "Deep in the lateral sulcus of the temporal lobe",
+        "Shape": "Lobular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9097264989949628,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Insula_R": {
+        "Location": "Deep in the lateral sulcus of the temporal lobe",
+        "Shape": "Lobular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.7836443187512132,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Cingulate_Ant_L": {
+        "Location": "Anterior part of the cingulate gyrus",
+        "Shape": "Saddle-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake"
+    },
+    "Cingulate_Ant_R": {
+        "Location": "Anterior part of the cingulate gyrus",
+        "Shape": "Saddle-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake"
+    },
+    "Cingulate_Mid_L": {
+        "Location": "Middle part of the cingulate gyrus",
+        "Shape": "Longitudinal cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.2687729454455408,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Cingulate_Mid_R": {
+        "Location": "Middle part of the cingulate gyrus",
+        "Shape": "Longitudinal cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.168759661028098,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Cingulate_Post_L": {
+        "Location": "Posterior part of the cingulate gyrus",
+        "Shape": "Longitudinal cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.1945298186805995,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Cingulate_Post_R": {
+        "Location": "Posterior part of the cingulate gyrus",
+        "Shape": "Longitudinal cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9348472678918854,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Hippocampus_L": {
+        "Location": "Medial temporal lobe, beneath the parahippocampal gyrus",
+        "Shape": "Curved, elongated structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.6554350195300283,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Hippocampus_R": {
+        "Location": "Medial temporal lobe, beneath the parahippocampal gyrus",
+        "Shape": "Curved, elongated structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.6638177045816408,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ParaHippocampal_L": {
+        "Location": "Medial temporal lobe, adjacent to the hippocampus",
+        "Shape": "Long, curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.626977709585868,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ParaHippocampal_R": {
+        "Location": "Medial temporal lobe, adjacent to the hippocampus",
+        "Shape": "Long, curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.7449050873514934,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Amygdala_L": {
+        "Location": "Medial temporal lobe, anterior to the hippocampus",
+        "Shape": "Almond-shaped structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.5934917075570924,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Amygdala_R": {
+        "Location": "Medial temporal lobe, anterior to the hippocampus",
+        "Shape": "Almond-shaped structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.6357000017411615,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Calcarine_L": {
+        "Location": "Medial occipital lobe, around the calcarine sulcus",
+        "Shape": "Linear cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.2109875029744843,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Calcarine_R": {
+        "Location": "Medial occipital lobe, around the calcarine sulcus",
+        "Shape": "Linear cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.2248490026046486,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Cuneus_L": {
+        "Location": "Medial occipital lobe, posterior to the calcarine sulcus",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.2290399622361414,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Cuneus_R": {
+        "Location": "Medial occipital lobe, posterior to the calcarine sulcus",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1759255885609559,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Lingual_L": {
+        "Location": "Medial occipital lobe, inferior to the cuneus",
+        "Shape": "Long, narrow cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0673369224905833,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Lingual_R": {
+        "Location": "Medial occipital lobe, inferior to the cuneus",
+        "Shape": "Long, narrow cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0979018842591906,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Occipital_Sup_L": {
+        "Location": "Superior part of the occipital lobe",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1216484253128771,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Occipital_Sup_R": {
+        "Location": "Superior part of the occipital lobe",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0935903330712993,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Occipital_Mid_L": {
+        "Location": "Middle occipital lobe",
+        "Shape": "Elongated cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.144090788030353,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Occipital_Mid_R": {
+        "Location": "Middle occipital lobe",
+        "Shape": "Elongated cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1354666377332914,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Occipital_Inf_L": {
+        "Location": "Inferior part of the occipital lobe",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.0724695603051289,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Occipital_Inf_R": {
+        "Location": "Inferior part of the occipital lobe",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.0554720353339708,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Fusiform_L": {
+        "Location": "Lateral occipital lobe, inferior to the temporal lobe",
+        "Shape": "Fusiform (spindle-like) cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9323070261025905,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Fusiform_R": {
+        "Location": "Lateral occipital lobe, inferior to the temporal lobe",
+        "Shape": "Fusiform (spindle-like) cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9846014416817299,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Postcentral_L": {
+        "Location": "Posterior to the central sulcus, in the parietal lobe",
+        "Shape": "Convex cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0489078564431682,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Postcentral_R": {
+        "Location": "Posterior to the central sulcus, in the parietal lobe",
+        "Shape": "Convex cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.01600740058129,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Parietal_Sup_L": {
+        "Location": "Superior part of the parietal lobe",
+        "Shape": "Irregular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0644041938776891,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Parietal_Sup_R": {
+        "Location": "Superior part of the parietal lobe",
+        "Shape": "Irregular cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9637393442527805,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Parietal_Inf_L": {
+        "Location": "Inferior part of the parietal lobe",
+        "Shape": "Triangular cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1495803639543454,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Parietal_Inf_R": {
+        "Location": "Inferior part of the parietal lobe",
+        "Shape": "Triangular cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.073103310850854,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "SupraMarginal_L": {
+        "Location": "Lateral parietal lobe, adjacent to the lateral sulcus",
+        "Shape": "Curved cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9923618630170202,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "SupraMarginal_R": {
+        "Location": "Lateral parietal lobe, adjacent to the lateral sulcus",
+        "Shape": "Curved cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.967764248666238,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Angular_L": {
+        "Location": "Posterior part of the inferior parietal lobule",
+        "Shape": "Angular cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.129459227478882,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Angular_R": {
+        "Location": "Posterior part of the inferior parietal lobule",
+        "Shape": "Angular cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1033766280666206,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Precuneus_L": {
+        "Location": "Medial parietal lobe, superior to the cuneus",
+        "Shape": "Crescent-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.160718396790072,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Precuneus_R": {
+        "Location": "Medial parietal lobe, superior to the cuneus",
+        "Shape": "Crescent-shaped cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1477244147601486,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Paracentral_Lobule_L": {
+        "Location": "Medial parietal lobe, surrounding the central sulcus",
+        "Shape": "Oval cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.052119896381544,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Paracentral_Lobule_R": {
+        "Location": "Medial parietal lobe, surrounding the central sulcus",
+        "Shape": "Oval cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.092231179172613,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Caudate_L": {
+        "Location": "Medial to the anterior horn of the lateral ventricle, in the basal ganglia",
+        "Shape": "C-shaped structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8172988748872275,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Caudate_R": {
+        "Location": "Medial to the anterior horn of the lateral ventricle, in the basal ganglia",
+        "Shape": "C-shaped structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9440320560731391,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Putamen_L": {
+        "Location": "Lateral to the caudate nucleus, in the basal ganglia",
+        "Shape": "Oval-shaped structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1502726368730287,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Putamen_R": {
+        "Location": "Lateral to the caudate nucleus, in the basal ganglia",
+        "Shape": "Oval-shaped structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0622393497342149,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Pallidum_L": {
+        "Location": "Medial to the putamen, in the basal ganglia",
+        "Shape": "Lens-shaped structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8681835945183076,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Pallidum_R": {
+        "Location": "Medial to the putamen, in the basal ganglia",
+        "Shape": "Lens-shaped structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.020014006677032,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thalamus_L": {
+        "Location": "Central part of the brain, beneath the cortex",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake"
+    },
+    "Thalamus_R": {
+        "Location": "Central part of the brain, beneath the cortex",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake"
+    },
+    "Heschl_L": {
+        "Location": "Superior temporal gyrus, within the temporal lobe",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9796205106246321,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Heschl_R": {
+        "Location": "Superior temporal gyrus, within the temporal lobe",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.12264185468524,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Sup_L": {
+        "Location": "Superior temporal gyrus, in the temporal lobe",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9418705975214888,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Sup_R": {
+        "Location": "Superior temporal gyrus, in the temporal lobe",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9355379286239859,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Pole_Sup_L": {
+        "Location": "Anterior part of the superior temporal gyrus",
+        "Shape": "Narrow cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.5246181697297136,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Pole_Sup_R": {
+        "Location": "Anterior part of the superior temporal gyrus",
+        "Shape": "Narrow cortical area",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.5657319504426742,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Mid_L": {
+        "Location": "Middle portion of the temporal lobe",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0204455084159365,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Mid_R": {
+        "Location": "Middle portion of the temporal lobe",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.990920165165291,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Pole_Mid_L": {
+        "Location": "Middle portion of the temporal pole",
+        "Shape": "Tapered cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.7538122570031773,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Pole_Mid_R": {
+        "Location": "Middle portion of the temporal pole",
+        "Shape": "Tapered cortical area",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.7368400433613703,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Inf_L": {
+        "Location": "Inferior temporal gyrus, in the temporal lobe",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8636482718327143,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Temporal_Inf_R": {
+        "Location": "Inferior temporal gyrus, in the temporal lobe",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8371982550982177,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Cerebellum_Crus1_L": {
+        "Location": "Lateral part of the cerebellum, Crus 1",
+        "Shape": "Elongated, curved structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0020727076802634,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_Crus1_R": {
+        "Location": "Lateral part of the cerebellum, Crus 1",
+        "Shape": "Elongated, curved structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0453086498969169,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_Crus2_L": {
+        "Location": "Lateral part of the cerebellum, Crus 2",
+        "Shape": "Elongated, curved structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0089244200481204,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_Crus2_R": {
+        "Location": "Lateral part of the cerebellum, Crus 2",
+        "Shape": "Elongated, curved structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9124355367194841,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_3_L": {
+        "Location": "Anterior part of the cerebellum",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.6601220489730694,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Cerebellum_3_R": {
+        "Location": "Anterior part of the cerebellum",
+        "Shape": "Triangular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.6081811859115529,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Cerebellum_4_5_L": {
+        "Location": "Posterior part of the cerebellum, lobes 4 and 5",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8758767070637633,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_4_5_R": {
+        "Location": "Posterior part of the cerebellum, lobes 4 and 5",
+        "Shape": "Irregular cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8820271182680731,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_6_L": {
+        "Location": "Cerebellum, lobe 6",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.083604046330373,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_6_R": {
+        "Location": "Cerebellum, lobe 6",
+        "Shape": "Elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0963911042123855,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_7b_L": {
+        "Location": "Cerebellum, lobe 7b",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9342359267396622,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_7b_R": {
+        "Location": "Cerebellum, lobe 7b",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9329787436423422,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_8_L": {
+        "Location": "Cerebellum, lobe 8",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0207798759132232,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_8_R": {
+        "Location": "Cerebellum, lobe 8",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9820807879594168,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_9_L": {
+        "Location": "Cerebellum, lobe 9",
+        "Shape": "Irregular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.989429618060101,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_9_R": {
+        "Location": "Cerebellum, lobe 9",
+        "Shape": "Irregular cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.0463386759047106,
+        "SUVR_Discrete_State": "stable uptake"
+    },
+    "Cerebellum_10_L": {
+        "Location": "Cerebellum, lobe 10",
+        "Shape": "Rounded cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.715890807247617,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Cerebellum_10_R": {
+        "Location": "Cerebellum, lobe 10",
+        "Shape": "Rounded cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.6742971188936014,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Vermis_1_2": {
+        "Location": "Midline of the cerebellum, lobes 1 and 2",
+        "Shape": "Narrow, elongated structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.6022447521714541,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Vermis_3": {
+        "Location": "Midline of the cerebellum, lobe 3",
+        "Shape": "Narrow cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.668542741323373,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Vermis_4_5": {
+        "Location": "Midline of the cerebellum, lobes 4 and 5",
+        "Shape": "Narrow cortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8790914877193299,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Vermis_6": {
+        "Location": "Midline of the cerebellum, lobe 6",
+        "Shape": "Long, slender region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.0142440715062788,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "Vermis_7": {
+        "Location": "Midline of the cerebellum, lobe 7",
+        "Shape": "Wider cortical area",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.02818867935479,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "Vermis_8": {
+        "Location": "Midline of the cerebellum, lobe 8",
+        "Shape": "Short, curved region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1939466907935763,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "Vermis_9": {
+        "Location": "Midline of the cerebellum, lobe 9",
+        "Shape": "Short, irregular region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.1398774996146874,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Vermis_10": {
+        "Location": "Midline of the cerebellum, lobe 10",
+        "Shape": "Rounded cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.7405521029684224,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "Thal_AV_L": {
+        "Location": "Anterior ventral part of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.221680330485352,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_AV_R": {
+        "Location": "Anterior ventral part of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.4758405779624413,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "Thal_LP_L": {
+        "Location": "Lateral posterior part of the thalamus",
+        "Shape": "Small oval-shaped structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.3678077938258413,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_LP_R": {
+        "Location": "Lateral posterior part of the thalamus",
+        "Shape": "Small oval-shaped structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.191512611490763,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VA_L": {
+        "Location": "Ventral anterior part of the thalamus",
+        "Shape": "Oval subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9170089876177622,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VA_R": {
+        "Location": "Ventral anterior part of the thalamus",
+        "Shape": "Oval subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.9125076014597382,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VL_L": {
+        "Location": "Ventral lateral part of the thalamus",
+        "Shape": "Round to oval subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1076412646249505,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VL_R": {
+        "Location": "Ventral lateral part of the thalamus",
+        "Shape": "Round to oval subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1696000938937465,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VPL_L": {
+        "Location": "Ventral posterior lateral part of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0440542075167878,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_VPL_R": {
+        "Location": "Ventral posterior lateral part of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.1129794562288118,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_IL_L": {
+        "Location": "Internal part of the thalamus",
+        "Shape": "Small oval subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1965918859294158,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_IL_R": {
+        "Location": "Internal part of the thalamus",
+        "Shape": "Small oval subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.121371693485928,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_Re_L": {
+        "Location": "Reuniens nucleus of the thalamus",
+        "Shape": "Small oval-shaped structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.8733637112277188,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_Re_R": {
+        "Location": "Reuniens nucleus of the thalamus",
+        "Shape": "Small oval-shaped structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.026026737147165,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_MDm_L": {
+        "Location": "Mediodorsal part of the thalamus, medial section",
+        "Shape": "Oval-shaped subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1362146923077419,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_MDm_R": {
+        "Location": "Mediodorsal part of the thalamus, medial section",
+        "Shape": "Oval-shaped subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.903077357871243,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_MDl_L": {
+        "Location": "Mediodorsal part of the thalamus, lateral section",
+        "Shape": "Oval-shaped subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.3983316448365855,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_MDl_R": {
+        "Location": "Mediodorsal part of the thalamus, lateral section",
+        "Shape": "Oval-shaped subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.252418279874301,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_LGN_L": {
+        "Location": "Lateral geniculate nucleus of the thalamus",
+        "Shape": "Rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.6313441154222413,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_LGN_R": {
+        "Location": "Lateral geniculate nucleus of the thalamus",
+        "Shape": "Rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.7738235229630184,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_MGN_L": {
+        "Location": "Medial geniculate nucleus of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9061297913379149,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_MGN_R": {
+        "Location": "Medial geniculate nucleus of the thalamus",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9581284512884273,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_PuI_L": {
+        "Location": "Putamen internal part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9317583990084408,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuI_R": {
+        "Location": "Putamen internal part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.9746295034013912,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Thal_PuM_L": {
+        "Location": "Putamen medial part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1158502768769238,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuM_R": {
+        "Location": "Putamen medial part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.032435904298025,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuA_L": {
+        "Location": "Putamen anterior part of the thalamus",
+        "Shape": "Oval subcortical structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.2235550616532394,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuA_R": {
+        "Location": "Putamen anterior part of the thalamus",
+        "Shape": "Oval subcortical structure",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.1987643073498297,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuL_L": {
+        "Location": "Putamen lateral part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.2543418602956493,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Thal_PuL_R": {
+        "Location": "Putamen lateral part of the thalamus",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 1.2032295805283975,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_sub_L": {
+        "Location": "Subgenual area of the anterior cingulate cortex",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.8967219571429216,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_sub_R": {
+        "Location": "Subgenual area of the anterior cingulate cortex",
+        "Shape": "Curved cortical region",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.8085514729259058,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_pre_L": {
+        "Location": "Preliminary section of the anterior cingulate cortex",
+        "Shape": "Small elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9375442948263643,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_pre_R": {
+        "Location": "Preliminary section of the anterior cingulate cortex",
+        "Shape": "Small elongated cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9310641914658581,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_sup_L": {
+        "Location": "Superior section of the anterior cingulate cortex",
+        "Shape": "Long cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9616304429837318,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "ACC_sup_R": {
+        "Location": "Superior section of the anterior cingulate cortex",
+        "Shape": "Long cortical region",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8256783758703389,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "N_Acc_L": {
+        "Location": "Nucleus accumbens, left hemisphere",
+        "Shape": "Small, rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.036802431048392,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "N_Acc_R": {
+        "Location": "Nucleus accumbens, right hemisphere",
+        "Shape": "Small, rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 1.0771353088852762,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "VTA_L": {
+        "Location": "Ventral tegmental area, left side",
+        "Shape": "Small oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.8413787355169219,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "VTA_R": {
+        "Location": "Ventral tegmental area, right side",
+        "Shape": "Small oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.941856652107547,
+        "SUVR_Discrete_State": "high uptake"
+    },
+    "SN_pc_L": {
+        "Location": "Pars compacta of the substantia nigra, left side",
+        "Shape": "Compact, dense subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.8827433321575119,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "SN_pc_R": {
+        "Location": "Pars compacta of the substantia nigra, right side",
+        "Shape": "Compact, dense subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.87571798729468,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "SN_pr_L": {
+        "Location": "Pars reticulata of the substantia nigra, left side",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.7953753944214474,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "SN_pr_R": {
+        "Location": "Pars reticulata of the substantia nigra, right side",
+        "Shape": "Irregular subcortical region",
+        "PET_Signal": "Low radiotracer uptake",
+        "suvr": 0.7708303373532669,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Red_N_L": {
+        "Location": "Red nucleus, left side",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.1285592243189964,
+        "SUVR_Discrete_State": "medium uptake"
+    },
+    "Red_N_R": {
+        "Location": "Red nucleus, right side",
+        "Shape": "Oval-shaped subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.040993390679885,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "LC_L": {
+        "Location": "Locus coeruleus, left side",
+        "Shape": "Small, rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.7996631658572415,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "LC_R": {
+        "Location": "Locus coeruleus, right side",
+        "Shape": "Small, rounded subcortical structure",
+        "PET_Signal": "High radiotracer uptake",
+        "suvr": 0.8068236119557177,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Raphe_D": {
+        "Location": "Dorsal raphe nucleus",
+        "Shape": "Small, elongated subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 0.9729325158042651,
+        "SUVR_Discrete_State": "low uptake"
+    },
+    "Raphe_M": {
+        "Location": "Medial raphe nucleus",
+        "Shape": "Small, elongated subcortical structure",
+        "PET_Signal": "Medium radiotracer uptake",
+        "suvr": 1.069439616841288,
+        "SUVR_Discrete_State": "medium uptake"
+    }
+}
