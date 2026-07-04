@@ -71,17 +71,6 @@ class Mask_Origin_Img(MapTransform):
 
 
 class PatchAALTargets(MapTransform):
-    """
-    从 crop 后的 AAL patch 中提取：
-    1) patch 内包含哪些脑区 -> aal_label (170,)
-    2) patch 内脑区的离散吸收状态 -> aal_state (170,)
-    3) patch 内脑区的真实 SUVR -> aal_suvr (170,)
-    4) patch 内每个脑区占 patch 所有非零AAL体素的比例 -> aal_patch_ratio (170,)
-    5) patch 内每个脑区覆盖原脑区的比例 -> aal_cover_ratio (170,)
-
-    注意：
-    roi_size_full 现在是每个样本个性化的，从 d["roi_size_full"] 读取
-    """
 
     def __init__(self, keys, num_aal=170, allow_missing_keys=False):
         super().__init__(keys, allow_missing_keys)
@@ -101,12 +90,10 @@ class PatchAALTargets(MapTransform):
 
         unique_labels, counts = np.unique(aal_arr, return_counts=True)
 
-        # 去掉背景0
         fg_mask = unique_labels > 0
         unique_labels = unique_labels[fg_mask]
         counts = counts[fg_mask].astype(np.float32)
 
-        # 个性化信息
         roi_state_full = np.asarray(d["roi_state_full"], dtype=np.int64)
         roi_suvr_full = np.asarray(d["roi_suvr_full"], dtype=np.float32)
         roi_size_full = np.asarray(d["roi_size_full"], dtype=np.float32)
@@ -116,32 +103,25 @@ class PatchAALTargets(MapTransform):
                 f"roi_size_full should have shape ({self.num_aal},), got {roi_size_full.shape}"
             )
 
-        # outputs
         aal_label = np.zeros((self.num_aal,), dtype=np.float32)
         aal_state = np.zeros((self.num_aal,), dtype=np.int64)
         aal_suvr = np.zeros((self.num_aal,), dtype=np.float32)
         aal_patch_ratio = np.zeros((self.num_aal,), dtype=np.float32)
         aal_cover_ratio = np.zeros((self.num_aal,), dtype=np.float32)
 
-        # atlas label 假定从 1 开始，对应 index = label - 1
         valid_idx = unique_labels - 1
         valid_mask = (valid_idx >= 0) & (valid_idx < self.num_aal)
         
-        # 过滤label=0或>170的值
         valid_idx = valid_idx[valid_mask]
         valid_counts = counts[valid_mask]
 
-        # 1) label / state / suvr
         aal_label[valid_idx] = 1.0
         aal_state[valid_idx] = roi_state_full[valid_idx]
         aal_suvr[valid_idx] = roi_suvr_full[valid_idx]
 
-        # 2) patch内各脑区占 patch 全部非零标签体素的比例
         total_fg_voxels = valid_counts.sum()
         if total_fg_voxels > 0:
             aal_patch_ratio[valid_idx] = valid_counts / total_fg_voxels
-
-        # 3) patch内体素数 / 该样本原始ROI体素数
         denom = roi_size_full[valid_idx]
         nz = denom > 0
         if np.any(nz):
@@ -168,25 +148,6 @@ def build_state_and_suvr_vectors(
     aal_pet_text_json_path,
     roi_keys_in_order,
 ):
-    """
-    读取单个样本的 aal_PET_text.json，
-    构造两个长度为 num_aal 的向量：
-      - roi_state_full: 0/1/2/3
-      - roi_suvr_full: float
-
-    状态编码顺序按你的要求：
-      stable uptake -> 0
-      low uptake    -> 1
-      medium uptake -> 2
-      high uptake   -> 3
-    """
-    state_map = {
-        "stable uptake": 0,
-        "low uptake": 1,
-        "medium uptake": 2,
-        "high uptake": 3,
-    }
-
     data = load_json(aal_pet_text_json_path)
     num_aal = len(roi_keys_in_order)
 
@@ -195,7 +156,6 @@ def build_state_and_suvr_vectors(
 
     for idx, roi_key in enumerate(roi_keys_in_order):
         if roi_key not in data:
-            # 若某个 key 缺失，保持默认 0
             continue
 
         info = data[roi_key]
@@ -220,24 +180,9 @@ def build_dataset_to_pretrain(
     input_size,
     mim_ratio,
     patch_size,
-    aal_standard_names_json="/data/junyan/LiangJ/PET_Foundation_Model/aal_text_outputs/aal_standard_name.json",
+    aal_standard_names_json="aal_standard_name.json",
     cache_dir=None,
 ) -> Dataset:
-    """
-    输出的每个 sample（每个随机 crop）会包含：
-      - image: 原图 patch
-      - mask_image: mask后的 patch
-      - mask: MIM mask
-      - aal_label: (170,) 0/1，patch里有哪些脑区
-      - aal_state: (170,) 0/1/2/3，patch外统一0
-      - aal_suvr:  (170,) float，patch外统一0
-
-    其中：
-      - aal_state 要和 aal_label 一起用，因为 0 同时可能表示 stable 或 absent
-      - aal_suvr 可直接配合 aal_label 做回归 loss mask
-    """
-
-    # 用 standard_names 的 key 顺序作为全局固定脑区顺序
     aal_standard_names = load_json(aal_standard_names_json)
     roi_keys_in_order = list(aal_standard_names.keys())
     num_aal = len(roi_keys_in_order)
@@ -351,7 +296,6 @@ def build_dataset_to_pretrain(
 
     print("Dataset all training: number of data: {}".format(len(datalist)))
 
-    # dataset_train = Dataset(data=datalist, transform=tr_transforms)    
 
     if cache_dir is not None:
         os.makedirs(cache_dir, exist_ok=True)
@@ -367,86 +311,3 @@ def build_dataset_to_pretrain(
         )
 
     return dataset_train
-
-
-# if __name__ == "__main__":
-#     dataset_path = "/data/junyan/PET_MNI_1mm"
-
-#     dataset = build_dataset_to_pretrain(
-#         dataset_path=dataset_path,
-#         input_size=64,
-#         mim_ratio=0.75,
-#         patch_size=8,
-#     )
-
-#     print("\n==== Dataset Basic Info ====")
-#     print("Dataset length:", len(dataset))
-
-#     num_samples_to_check = min(6, len(dataset))
-#     print(f"\n==== Checking first {num_samples_to_check} samples ====")
-
-#     for i in range(num_samples_to_check):
-#         print("\n" + "=" * 100)
-#         print(f"Sample Index: {i}")
-#         print("=" * 100)
-
-#         sample = dataset[i]
-
-#         print("\n==== Raw Sample Type ====")
-#         print(type(sample))
-
-#         # RandCropByPosNegLabeld(num_samples=2) -> 返回 list
-#         if isinstance(sample, list):
-#             print("This sample contains multiple crops:", len(sample))
-#             crops = sample
-#         else:
-#             crops = [sample]
-
-#         for j, crop in enumerate(crops):
-#             print("\n" + "-" * 80)
-#             print(f"Crop Index: {j}")
-#             print("-" * 80)
-
-#             print("\n==== Keys ====")
-#             print(crop.keys())
-
-#             print("\n==== Tensor Shapes ====")
-#             for k in [
-#                 "image",
-#                 "mask_image",
-#                 "mask",
-#                 "aal_label",
-#                 "aal_state",
-#                 "aal_suvr",
-#                 "aal_patch_ratio",
-#                 "aal_cover_ratio",
-#             ]:
-#                 if k in crop:
-#                     print(f"{k}: {crop[k].shape}")
-
-#             print("\n==== ROI Debug Info ====")
-#             aal_label = crop["aal_label"].numpy()
-#             aal_state = crop["aal_state"].numpy()
-#             aal_suvr = crop["aal_suvr"].numpy()
-#             aal_patch_ratio = crop["aal_patch_ratio"].numpy()
-#             aal_cover_ratio = crop["aal_cover_ratio"].numpy()
-
-#             present_idx = np.where(aal_label > 0)[0]
-
-#             print("Number of ROIs in this patch:", len(present_idx))
-#             print("First 10 ROI indices (present):", present_idx[:10])
-
-#             print("\n==== Example ROI Values (first 5 present ROIs) ====")
-#             for idx in present_idx[:5]:
-#                 print(
-#                     f"ROI {idx+1}: "
-#                     f"state={aal_state[idx]}, "
-#                     f"suvr={aal_suvr[idx]:.3f}, "
-#                     f"patch_ratio={aal_patch_ratio[idx]:.3f}, "
-#                     f"cover_ratio={aal_cover_ratio[idx]:.3f}"
-#                 )
-
-#             print("\n==== Sanity Checks ====")
-#             print("aal_label sum:", aal_label.sum())
-#             print("patch_ratio sum (should be ~1):", aal_patch_ratio.sum())
-#             print("cover_ratio max:", aal_cover_ratio.max())
